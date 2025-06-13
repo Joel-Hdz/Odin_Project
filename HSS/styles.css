@@ -1,0 +1,44 @@
+span.hss {
+    color: navy;
+}
+
+.card {
+    transition: transform 0.2s cubic-bezier(.4, 2, .6, 1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.footer,
+.About,
+.DedicatedRuns {
+    background-color: rgb(3, 3, 44);
+}
+
+.Solutions,
+.About,
+.Tips {
+    min-height: 500px;
+    /* Adjust this value as needed */
+    display: flex;
+    align-items: center;
+}
+
+.NewsLetter {
+    background-color: rgb(3, 3, 44);
+    color: #fff;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.NewsLetter.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
